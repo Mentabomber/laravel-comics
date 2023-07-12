@@ -1,0 +1,34 @@
+#header-other-links{
+    background-color: rgb(35,146,250);
+    color: white;
+    text-align: end;
+    select{
+        border: none;
+        background-color: rgb(35,146,250);
+        color: white;
+    }
+}
+.container-header-box-fluid{
+    width: 100%;
+}
+.container-header-box{
+    width: 1080px;
+    margin: auto;
+}
+#jumbotron{
+    background-image: url('../assets/imgs/jumbotron.jpg');
+    background-color: white;
+    height: 300px;
+}
+
+#header-navbar{
+    font-weight: bold;
+    #search-bar{
+        border: none;
+        border-radius: 0;
+        border-bottom: 3px solid blue;
+        text-align: end;
+    }
+}
+
+

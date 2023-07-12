@@ -16,20 +16,8 @@
 </head>
 
 <body>
-    <header>
-        {{-- other links bar --}}
-        <div>
 
-        </div>
-        {{-- navbar  --}}
-        <div>
-
-        </div>
-        {{-- jumbotron/hero  --}}
-        <div>
-
-        </div>
-    </header>
+    @include('partials.header')
 
     <main>
         <div class="container">
@@ -37,17 +25,8 @@
         </div>
     </main>
 
+    @include('partials.footer')
 
-    <footer>
-        {{-- footer links --}}
-        <div>
-
-        </div>
-        {{-- sign up & socials  --}}
-        <div>
-
-        </div>
-    </footer>
 </body>
 
 </html>
